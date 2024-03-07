@@ -12,7 +12,7 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
+  <!--<link rel="manifest" href="site.webmanifest">-->
   <link rel="apple-touch-icon" href="icon.png">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <!-- Place favicon.ico in the root directory -->
@@ -23,31 +23,29 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
+<style>
+  body {
+    background-image: url('img/Abstract-Plain-White-Wallpaper.jpg');
+  }</style>
 <body>
-  <!-- Add your site or application content here -->
 
-  <!-- Create the Dashbar which displays the title -->
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebutt" onclick="closeNav()">x</a>
+  <a href="index.html" id="dashboard-link1">Dashboard</a>
+  <a href="about.html" id="about-link1" >About</a>
+</div>
+
+<div id="main">
+  <button class="openbutt" onclick="openNav()">☰</button>
   <div id="dash-bar">
     <h1>Spam Detector Dashboard</h1>
   </div>
-
-  <!-- Create the SideBar which connects the Dashboard and About Pages -->
-  <nav id="left-sidebar">
-    <ul>
-      <li><a href="index.html" id="dashboard-link">Dashboard</a></li>
-      <li><a href="about.html" id="about-link">About</a></li>
-    </ul>
-  </nav>
-
-  <!-- Display Information about what the table is displaying -->
   <div id="Info">
     <h1>
       Spam Analysis Dashboard
     </h1>
     <h2>Spam Probability Result Table</h2>
   </div>
-
-  <!-- Create the Chart which displays the spam probability results on table -->
   <table id="chart">
     <thead>
     <tr>
@@ -60,39 +58,37 @@
     </tbody>
   </table>
 
-  <!-- Create a Table on the side that displays the precision and accuracy of the model -->
+  <! -- Create a Table on the side that displays the precision and accuracy of the model -->
   <form id= "accuracy_precision">
     <h2>Model Performance</h2>
     <ul>
       <li>
         <label for="accuracy">Accuracy:</label>
-        <input type="text" id="accuracy" name="accuracy" required readonly><br><br>
+        <input type="text" id="accuracy" name="accuracy" value="" required readonly><br><br>
       </li>
       <li>
         <label for="precision">Precision:</label>
-        <input type="text" id="precision" name="precision" required readonly><br><br>
+        <input type="text" id="precision" name="precision" value="" required readonly><br><br>
       </li>
     </ul>
   </form>
-
-  <!-- Create the Bottom Bar which Displays Course Info -->
-  <div id="bottom-bar">
-    <div class="bottom-bar-words">
-      <p>Winter Semester 2024 - CSCI2020U</p>
-    </div>
+</div>
+<!-- Create the Bottom Bar which Displays Course Info -->
+<div id="bottom-bar">
+  <div class="bottom-bar-words">
+    <p>Winter Semester 2024 - CSCI2020U</p>
   </div>
+</div>
 
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
-
 </html>

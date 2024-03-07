@@ -6,31 +6,39 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
+<style>
+  body {
+    background-image: url('img/Abstract-Plain-White-Wallpaper.jpg');
+  }</style>
 <body>
 
-<!-- Create the Dashbar which displays the title -->
-<div id="dash-bar">
-  <h1>Spam Detector Dashboard </h1>
+
+<!-- Sidebar  -->
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebutt" onclick="closeNav()">x</a>
+  <a href="index.html" id="dashboard-link2">Dashboard</a>
+  <a href="about.html" id="about-link2" >About</a>
 </div>
 
-<!-- Create the SideBar which connects the Dashboard and About Pages -->
-<nav id="left-sidebar">
-  <ul>
-    <li><a href="index.html" id="dashboard-link">Dashboard</a></li>
-    <li><a href="about.html" id="about-link">About</a></li>
-  </ul>
-</nav>
-
-<!-- Names of Group Members -->
-<div id="Name">
-  <h1>
-    Group Members:
-  </h1>
-  <h3>Sabaoon Mohammad Jamil <a href="https://github.com/sabaoonmj"> <button  > <image src="img/github_logo.png" width = "30" length = "30" alt="GitHub"> </image></a> </button></h3>
-  <h3>Yousaf Jan <a href="https://github.com/Yousaf-code"> <button  > <image src="img/github_logo.png" width = "30" length = "30" alt="GitHub"> </image> </a> </button></h3>
-  <h3>Yoosuf Mohamad Kamal <a href="https://github.com/yoosuf-mk"> <button  > <image src="img/github_logo.png" width = "30" length = "30" alt="GitHub"> </image> </a> </button></h3>
+<div id="main">
+  <button class="openbutt" onclick="openNav()">☰</button>
+  <div id="dash-bar">
+    <h1>About </h1>
+  </div>
+  <!-- Names of Group Members-->
+  <div id="Name">
+    <h2>This website was brought to you by:</h2>
+    <h3>
+      Group Members:
+    </h3>
+    <h3>Sabaoon Mohammad Jamil <a href="https://github.com/sabaoonmj"> <button id = "git1" > <image src="img/github_logo.png" width = "30" length = "30" alt="GitHub"> </image> </button></a></h3>
+    <h3>Yousaf Jan <a href="https://github.com/Yousaf-code"> <button id="git2" > <image src="img/github_logo.png" width = "30" length = "30" alt="GitHub"> </image> </button> </a></h3>
+    <h3>Yoosuf Mohamad Kamal <a href="https://github.com/yoosuf-mk"> <button id = "git3"  > <image src="img/github_logo.png" width = "30" length = "30" alt="GitHub"> </image> </button> </a></h3>
+  </div>
 </div>
-<!-- Github links to Group Members-->
+
+
+
 
 <!-- Create the Bottom Bar which Displays Course Info -->
 <div id="bottom-bar">
@@ -38,6 +46,10 @@
     <p>Winter Semester 2024 - CSCI2020U</p>
   </div>
 </div>
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>
