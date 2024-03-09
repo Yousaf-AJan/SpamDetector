@@ -132,8 +132,6 @@ public class SpamDetector {
             //Change the values to something very near to 1 or 0
             if (prSwi == 0) {
                 prSwi = 0.000000001;
-            } else if (prSwi == 1) {
-                prSwi = 0.999999999;
             }
 
             //Calculate the eta
