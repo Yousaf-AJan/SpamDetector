@@ -314,7 +314,7 @@ body {
   font-size: 25px;
   color: rgb(255, 255, 255);
   display: block;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 /*colour for hovering over the links in sidebar*/
@@ -325,7 +325,7 @@ body {
 .sidebar .closebutt {
   position: absolute;
   top: 50px;
-  right: 10px;
+  right: 5px;
   font-size: 36px;
   margin-left: 50px;
   padding: 1px 5px;
@@ -359,10 +359,19 @@ body {
 #git3{
   padding: 1px;
 }
-
+#container{
+  overflow: scroll;
+  position: sticky;
+  margin: auto;
+  top: 60px;
+  height: 200px;
+  width: 550px;
+  padding-bottom: 500px;
+  padding-right: 5px;
+}
 #chart thead {
   position: sticky;
-  top: 60px;
+  top: 5px;
   background-color: white;
 }
 
