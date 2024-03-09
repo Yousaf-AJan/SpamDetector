@@ -1,7 +1,7 @@
 // TODO: onload function should retrieve the data needed to populate the UI
  function openNav() {
-  document.getElementById("mySidebar").style.width = "13%";
-  document.getElementById("main").style.marginLeft = "13%";
+  document.getElementById("mySidebar").style.width = "200px";
+  document.getElementById("main").style.marginLeft = "200px";
 }
 
 function closeNav() {
