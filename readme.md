@@ -1,17 +1,17 @@
 # Assignment 01 - Spam Detector
 
 ## Project Information
-The project takes emails and goes over the emails and confirms whether the email is a spam or not. It does this by iteratimg over the email and checking for common occuring spam words or tendencies. We than take this and find the spam probability of these emails and display them in a table. We also find the accuracy and precision of identifiying these spam emails by dividing the number of correct guesses by the total number of emails, and the number of correct spam guesses divided by the number of all spam guesses, respectively.
+The project takes emails and goes over the emails and confirms whether the email is a spam or not. It does this by iteratimg over the email and checking for common occuring spam words or tendencies. We than take this and find the spam probability of these emails and display them in a table. We also find the accuracy and precision of identifiying these spam emails by dividing the number of correct guesses by the total number of emails, and the number of correct spam guesses divided by the number of all spam guesses, respectively.  
 
-this is an image of our working project
+This is an image of our working project  
 
 <img src="image.png">
 
 
 Group Members:
-YOusaf Jan
-Sabaoon Mohammad Jamil
-Yoosuf Mohamed Kamal
+Yousaf Jan  
+Sabaoon Mohammad Jamil  
+Yoosuf Mohamed Kamal  
 
 ## Improvements
 - We designed a side Navagation bar that opens and closes through the click of a button.
@@ -23,14 +23,14 @@ Yoosuf Mohamed Kamal
 ## How to run
 [1] CLone the repository
 [2] Edit Glass Fish Configurations
-    - Select Local Glass Fish server
-    - Set URL to match image below
-    - Set Domain to domain1
-    - Set JRE to 20.0.2
-    <img src="image1.png">
-    - Under Deployment add artifact: spamDetector:war exploded
-    - Select ok to make changes
-    <img src="image2.png">
+    - Select Local Glass Fish server  
+    - Set URL to match image below  
+    - Set Domain to domain1  
+    - Set JRE to 20.0.2  
+    <img src="image1.png">  
+    - Under Deployment add artifact: spamDetector:war exploded  
+    - Select ok to make changes  
+    <img src="image2.png">  
 [3] Run your Glass Fish server
 [4] Open your index.html file in a browser and wait for table to populate (This may take a while)
 
