@@ -38,8 +38,9 @@ Yoosuf Mohamed Kamal
 - If artifact: spamDetector:war exploded does not exist right click on your pom.xml file and click on add as amaven project.  
 <img src="image3.png">  
 if your pom.xml file is added as a maven project the file will appear as a blue m.  
-After that add the artifact spamDetector:war exploded.  
-## Resources
-- [W3schools](https://www.w3schools.com/)
-- [Wikipedia_1](https://en.wikipedia.org/wiki/Bag-of-words_model)
+After that add the artifact spamDetector:war exploded.
+
+## Resources  
+- [W3schools](https://www.w3schools.com/)  
+- [Wikipedia_1](https://en.wikipedia.org/wiki/Bag-of-words_model)  
 - [Wikipedia_2](https://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering)
